@@ -2,7 +2,7 @@ console.log("Hello World");
 
 //Generate random numbers
 function generateRandomNumber (num) {
-    return Math.floor(Math.random() num * 1)
+    return Math.floor(Math.random() * num )
 }
 console.log(generateRandomNumber(34))
 
