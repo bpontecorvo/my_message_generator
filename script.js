@@ -16,5 +16,15 @@ const spiritWisdom = {
 // Spirit Output Holder
 let spiritMessage = []
 
+for (prop in spiritWisdom){
+    let index = generateRandomNumber(spiritWisdom[prop].length);
+    switch(prop) {
+    case "spiritAnnimal": 
+    spiritWisdom.push(`Today your spirit animal is $`)
+
+    }
+}
+
+ console.log(spiritMessage);
 
 
