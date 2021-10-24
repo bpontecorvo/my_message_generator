@@ -33,6 +33,16 @@ for (prop in spiritWisdom){
     }
 }
 
- console.log(spiritMessage);
+
+const format = (spiritMessage) => {
+    let formatted = '';
+    spiritMessage.map(value => {
+        return formatted += (value + "\n");
+    })
+    return formatted;
+
+}
+
+console.log(format(spiritMessage));
 
 
