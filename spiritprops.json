@@ -1,0 +1,23 @@
+{
+  "spiritAnimal": [
+    "Orca",
+    "Foster Dog",
+    "Snek",
+    "Tardigrade",
+    "Elephante",
+    "slow leopard"
+  ],
+  "spiritPower": [
+    "enhanced smelling abilities",
+    "confident public speaker",
+    "never becomes dehydrated",
+    "spell single-letter words backwards"
+  ],
+  "spiritPlace": [
+    "Outer Space",
+    "Central Park",
+    "Spokane",
+    "Upper Alki",
+    "new York"
+  ]
+}
