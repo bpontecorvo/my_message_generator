@@ -1,5 +1,5 @@
 {
-  "spiritAnimal": [
+  "Spirit Animal": [
     "Orca",
     "Foster Dog",
     "Snek",
@@ -7,17 +7,22 @@
     "Elephante",
     "slow leopard"
   ],
-  "spiritPower": [
+  "Spirit Power": [
     "enhanced smelling abilities",
     "confident public speaker",
     "never becomes dehydrated",
     "spell single-letter words backwards"
   ],
-  "spiritPlace": [
+  "Spirit Place": [
     "Outer Space",
     "Central Park",
     "Spokane",
     "Upper Alki",
     "new York"
+  ],
+  "Spirit Disease" : [
+    "Ebola",
+    "COVID",
+    "Hiccups"
   ]
 }

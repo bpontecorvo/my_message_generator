@@ -21,18 +21,23 @@ let spiritMessage = []
 for (prop in spiritWisdom){
     let index = generateRandomNumber(spiritWisdom[prop].length);
     var now = new Date();
+    let thisWisdom = "";
     switch(prop) {
-    case "spiritAnimal":
-        spiritMessage.push(`At ${now.toLocaleTimeString()}  on ${now.toLocaleDateString()}, your spirit animal is ${spiritWisdom[prop][index]}`);
-        break
-    case "spiritPower": 
-        spiritMessage.push(`Your spirit power is ${spiritWisdom[prop][index]}`);
-        break
-    case "spiritPlace": 
-        spiritMessage.push(`Lastly, your spiritual place is ${spiritWisdom[prop][index]}`);
-        break
+    case "Spirit Animal":
+        thisWisdom = `At ${now.toLocaleTimeString()}  on ${now.toLocaleDateString()}, `;
+        break;
+    case "Spirit Power":
+        thisWisdom = 'and ';
+        break;
+    case "Spirit Place":
+        thisWisdom = 'Lastly, ';
+        break;
     default:
-        spiritWisdom.push('Not enough information');
+        spiritMessage.push(`unknown spirit property ${prop}`);
+    }
+    if (thisWisdom.length > 0) {
+        thisWisdom += `your ${prop} is ${spiritWisdom[prop][index]}`;
+        spiritMessage.push(thisWisdom);
     }
 }
 
