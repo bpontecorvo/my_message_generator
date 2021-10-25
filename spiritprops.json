@@ -5,7 +5,8 @@
     "Snek",
     "Tardigrade",
     "Elephante",
-    "slow leopard"
+    "Slow leopard",
+    "Gryphon"
   ],
   "Spirit Power": [
     "enhanced smelling abilities",
@@ -18,11 +19,13 @@
     "Central Park",
     "Spokane",
     "Upper Alki",
-    "new York"
+    "New York"
   ],
   "Spirit Disease" : [
     "Ebola",
     "COVID",
-    "Hiccups"
+    "Hiccups",
+    "Diaper Rash",
+    "Ringworm"
   ]
 }
